@@ -25,8 +25,11 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 
 
 # 🔥 News
-- *2025.04*: &nbsp;🎉🎉 Our paper **FedPaI** has been released on arXiv.
-- *2024.12*: &nbsp;🎉🎉 Presented **MoQ** at NeurIPS 2024 Workshop MLNCP.
+- *2025.04*: &nbsp;🎉🎉 Our paper **FedPaI** has been accepted by ICIC 2025 and released on arXiv.
+- *2024.12*: &nbsp;🎉🎉 Present **MoQ** at NeurIPS 2024 Workshop MLNCP.
+- *2024.05*: &nbsp;🎉🎉 Present **EFFICIENT AND TRUSTWORTHY DISTRIBUTED EDGEAI SYSTEM** at MLSys Young Professionals Symposium.
+- *2023.06*: &nbsp;🎉🎉 Published papers **QuantPipe** and **BEBERT** at ICASSP 2023.
+
 
 # 📝 Publications 
 <!-- <div class='paper-box'>
