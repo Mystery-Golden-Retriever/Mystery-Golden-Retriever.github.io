@@ -29,11 +29,11 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 - *2024.12*: &nbsp;🎉🎉 Presented **MoQ** at NeurIPS 2024 Workshop MLNCP.
 
 # 📝 Publications 
-<div class='paper-box'>
+<!-- <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">arXiv 2025</div>
-      <img src="images/fedpai.jpg" alt="FedPaI" width="100%">
+      <img src="images/fedpai.jpg" alt="FedPaI" width="70%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -49,7 +49,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   <div class='paper-box-image'>
     <div>
       <div class="badge">NeurIPS 2024</div>
-      <img src="images/moq.png" alt="MoQ" width="100%">
+      <img src="images/moq.png" alt="MoQ" width="50%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -81,7 +81,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICASSP 2023</div>
-      <img src="images/bebert.png" alt="BEBERT" width="100%">
+      <img src="images/bebert.png" alt="BEBERT" width="50%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -97,7 +97,71 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 - [Temporal Residual Feature Learning for 3D CNN Action Recognition](https://ieeexplore.ieee.org/document/9273915), **Haonan Wang**, Y Mei, J Lin, Z Wang, **SiPS 2020**
 - [Design Light-weight 3D CNN for Video Recognition](https://arxiv.org/abs/1905.13388), **Haonan Wang**, J Lin, Z Wang, **arXiv 2019**
 - [Sparse-Winograd Accelerator for CNNs](https://ieeexplore.ieee.org/document/8683507), **Haonan Wang**, W Liu, T Xu, J Lin, Z Wang, **ICASSP 2019**
-- [Efficient Reconfigurable Hardware Core for CNNs](https://ieeexplore.ieee.org/document/8645271), **Haonan Wang**, J Lin, Y Xie, B Yuan, Z Wang, **Asilomar 2018**
+- [Efficient Reconfigurable Hardware Core for CNNs](https://ieeexplore.ieee.org/document/8645271), **Haonan Wang**, J Lin, Y Xie, B Yuan, Z Wang, **Asilomar 2018** -->
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">arXiv 2025</div>
+      <img src="images/fedpai.jpg" alt="FedPaI" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="https://arxiv.org/abs/2504.00308">FedPaI: Achieving Extreme Sparsity in Federated Learning via Pruning at Initialization</a></h3>
+    <p><strong>Haonan Wang</strong>, Z Liu, K Hoshino, T Zhang, JP Walters, SP Crago</p>
+    <p>Introducing pruning at initialization for federated learning to significantly reduce computation and communication overhead.</p>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">NeurIPS 2024</div>
+      <img src="images/moq.png" alt="MoQ" width="50%">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="https://neurips.cc/virtual/2024/workshop/12345">MoQ: Mixture-of-format Activation Quantization for Communication-efficient AI Inference System</a></h3>
+    <p><strong>Haonan Wang</strong>, Z Liu, C Fang, JP Walters, SP Crago</p>
+    <p>Proposed a mixed-format quantization method for AI inference, enhancing communication efficiency for edge/cloud deployments.</p>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ICASSP 2023</div>
+      <img src="images/quantpipe.png" alt="QuantPipe" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="https://ieeexplore.ieee.org/document/10096015">QuantPipe: Adaptive Post-Training Quantization for Distributed Transformer Pipelines in Dynamic Edge Environments</a></h3>
+    <p><strong>Haonan Wang</strong>, C Imes, S Kundu, PA Beerel, SP Crago, JP Walters</p>
+    <p>Developed adaptive post-training quantization for transformer models in dynamic distributed edge environments.</p>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ICASSP 2023</div>
+      <img src="images/bebert.png" alt="BEBERT" width="50%">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="https://ieeexplore.ieee.org/document/10095470">BEBERT: Efficient and Robust Binary Ensemble BERT</a></h3>
+    <p>J Tian, C Fang, <strong>Haonan Wang</strong>, Z Wang</p>
+    <p>Created an efficient and robust binary ensemble BERT, significantly reducing computational overhead.</p>
+  </div>
+</div>
+
+<ul>
+  <li><a href="https://ieeexplore.ieee.org/document/9401561">Accelerating 3D CNN using 3D Fast Fourier Transform</a>, C Fang, L He, <strong>Haonan Wang</strong>, J Wei, Z Wang, <em>ISCAS 2021</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/9273915">Temporal Residual Feature Learning for 3D CNN Action Recognition</a>, <strong>Haonan Wang</strong>, Y Mei, J Lin, Z Wang, <em>SiPS 2020</em></li>
+  <li><a href="https://arxiv.org/abs/1905.13388">Design Light-weight 3D CNN for Video Recognition</a>, <strong>Haonan Wang</strong>, J Lin, Z Wang, <em>arXiv 2019</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/8683507">Sparse-Winograd Accelerator for CNNs</a>, <strong>Haonan Wang</strong>, W Liu, T Xu, J Lin, Z Wang, <em>ICASSP 2019</em></li>
+  <li><a href="https://ieeexplore.ieee.org/document/8645271">Efficient Reconfigurable Hardware Core for CNNs</a>, <strong>Haonan Wang</strong>, J Lin, Y Xie, B Yuan, Z Wang, <em>Asilomar 2018</em></li>
+</ul>
 
 
 # 💻 Internships
