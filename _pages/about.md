@@ -31,7 +31,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 # 📝 Publications 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">arXiv 2025</div><img src='images/500x300.png' alt=\"FedPaI\" width=\"100%\"></div>
+    <div><div class=\"badge\">arXiv 2025</div><img src='images/fedpai.jpg' alt=\"FedPaI\" width=\"100%\"></div>
   </div>
   <div class='paper-box-text' markdown=\"1\">
 
@@ -45,7 +45,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">NeurIPS 2024</div><img src='images/500x300.png' alt=\"MoQ\" width=\"100%\"></div>
+    <div><div class=\"badge\">NeurIPS 2024</div><img src='images/moq.png' alt=\"MoQ\" width=\"100%\"></div>
   </div>
   <div class='paper-box-text' markdown=\"1\">
 
@@ -59,7 +59,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">ICASSP 2023</div><img src='images/500x300.png' alt=\"QuantPipe\" width=\"100%\"></div>
+    <div><div class=\"badge\">ICASSP 2023</div><img src='images/quantpipe.png' alt=\"QuantPipe\" width=\"100%\"></div>
   </div>
   <div class='paper-box-text' markdown=\"1\">
 
@@ -73,7 +73,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">ICASSP 2023</div><img src='images/500x300.png' alt=\"BEBERT\" width=\"100%\"></div>
+    <div><div class=\"badge\">ICASSP 2023</div><img src='images/bebert.png' alt=\"BEBERT\" width=\"100%\"></div>
   </div>
   <div class='paper-box-text' markdown=\"1\">
 
@@ -117,8 +117,3 @@ J Tian, C Fang, **Haonan Wang**, Z Wang
 
 # 💬 Invited Talks
 - *2024.05* MLSys Young Professionals Symposium, EFFICIENT AND TRUSTWORTHY DISTRIBUTED EDGEAI SYSTEM. 
-
-
-# 💻 Internships
-- *2024.06 - 2024.09* Research Scientist Intern, Microsoft Azure Hardware System & Infrastructure, USA.
-- *2019.01 - 2020.08* Research Scientist Intern, Windorise Tech. Co., China.
