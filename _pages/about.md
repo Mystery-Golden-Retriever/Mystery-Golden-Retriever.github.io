@@ -31,58 +31,66 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 # 📝 Publications 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">arXiv 2025</div><img src='images/fedpai.jpg' alt=\"FedPaI\" width=\"100%\"></div>
+    <div>
+      <div class="badge">arXiv 2025</div>
+      <img src="images/fedpai.jpg" alt="FedPaI" width="100%">
+    </div>
   </div>
-  <div class='paper-box-text' markdown=\"1\">
+  <div class='paper-box-text' markdown="1">
+    [FedPaI: Achieving Extreme Sparsity in Federated Learning via Pruning at Initialization](https://arxiv.org/abs/2504.00308)
 
-[FedPaI: Achieving Extreme Sparsity in Federated Learning via Pruning at Initialization](https://arxiv.org/abs/2504.00308)
+    <strong>Haonan Wang</strong>, Z Liu, K Hoshino, T Zhang, JP Walters, SP Crago
 
-**Haonan Wang**, Z Liu, K Hoshino, T Zhang, JP Walters, SP Crago
-
-- Introducing pruning at initialization for federated learning to significantly reduce computation and communication overhead.
-</div>
+    - Introducing pruning at initialization for federated learning to significantly reduce computation and communication overhead.
+  </div>
 </div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">NeurIPS 2024</div><img src='images/moq.png' alt=\"MoQ\" width=\"100%\"></div>
+    <div>
+      <div class="badge">NeurIPS 2024</div>
+      <img src="images/moq.png" alt="MoQ" width="100%">
+    </div>
   </div>
-  <div class='paper-box-text' markdown=\"1\">
+  <div class='paper-box-text' markdown="1">
+    [MoQ: Mixture-of-format Activation Quantization for Communication-efficient AI Inference System](https://neurips.cc/virtual/2024/workshop/12345)
 
-[MoQ: Mixture-of-format Activation Quantization for Communication-efficient AI Inference System](https://neurips.cc/virtual/2024/workshop/12345)
+    <strong>Haonan Wang</strong>, Z Liu, C Fang, JP Walters, SP Crago
 
-**Haonan Wang**, Z Liu, C Fang, JP Walters, SP Crago
-
-- Proposed a mixed-format quantization method for AI inference, enhancing communication efficiency for edge/cloud deployments.
-</div>
+    - Proposed a mixed-format quantization method for AI inference, enhancing communication efficiency for edge/cloud deployments.
+  </div>
 </div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">ICASSP 2023</div><img src='images/quantpipe.png' alt=\"QuantPipe\" width=\"100%\"></div>
+    <div>
+      <div class="badge">ICASSP 2023</div>
+      <img src="images/quantpipe.png" alt="QuantPipe" width="100%">
+    </div>
   </div>
-  <div class='paper-box-text' markdown=\"1\">
+  <div class='paper-box-text' markdown="1">
+    [QuantPipe: Adaptive Post-Training Quantization for Distributed Transformer Pipelines in Dynamic Edge Environments](https://ieeexplore.ieee.org/document/10096015)
 
-[QuantPipe: Adaptive Post-Training Quantization for Distributed Transformer Pipelines in Dynamic Edge Environments](https://ieeexplore.ieee.org/document/10096015)
+    <strong>Haonan Wang</strong>, C Imes, S Kundu, PA Beerel, SP Crago, JP Walters
 
-**Haonan Wang**, C Imes, S Kundu, PA Beerel, SP Crago, JP Walters
-
-- Developed adaptive post-training quantization for transformer models in dynamic distributed edge environments.
-</div>
+    - Developed adaptive post-training quantization for transformer models in dynamic distributed edge environments.
+  </div>
 </div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class=\"badge\">ICASSP 2023</div><img src='images/bebert.png' alt=\"BEBERT\" width=\"100%\"></div>
+    <div>
+      <div class="badge">ICASSP 2023</div>
+      <img src="images/bebert.png" alt="BEBERT" width="100%">
+    </div>
   </div>
-  <div class='paper-box-text' markdown=\"1\">
+  <div class='paper-box-text' markdown="1">
+    [BEBERT: Efficient and Robust Binary Ensemble BERT](https://ieeexplore.ieee.org/document/10095470)
 
-[BEBERT: Efficient and Robust Binary Ensemble BERT](https://ieeexplore.ieee.org/document/10095470)
+    J Tian, C Fang, <strong>Haonan Wang</strong>, Z Wang
 
-J Tian, C Fang, **Haonan Wang**, Z Wang
-
-- Created an efficient and robust binary ensemble BERT, significantly reducing computational overhead.
-</div>
+    - Created an efficient and robust binary ensemble BERT, significantly reducing computational overhead.
+  </div>
 </div>
 
 - [Accelerating 3D CNN using 3D Fast Fourier Transform](https://ieeexplore.ieee.org/document/9401561), C Fang, L He, **Haonan Wang**, J Wei, Z Wang, **ISCAS 2021**
