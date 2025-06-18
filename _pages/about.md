@@ -110,7 +110,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
     </div>
   </div>
   <div class='paper-box-text'>
-    <h3><a href="https://arxiv.org/abs/2504.00308">FedPaI: Achieving Extreme Sparsity in Federated Learning via Pruning at Initialization</a></h3>
+    <h3><a href="https://arxiv.org/pdf/2504.00308">FedPaI: Achieving Extreme Sparsity in Federated Learning via Pruning at Initialization</a></h3>
     <p><strong>Haonan Wang</strong>, Z Liu, K Hoshino, T Zhang, JP Walters, SP Crago</p>
     <p>Introducing pruning at initialization for federated learning to significantly reduce computation and communication overhead.</p>
   </div>
@@ -124,7 +124,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
     </div>
   </div>
   <div class='paper-box-text'>
-    <h3><a href="https://neurips.cc/virtual/2024/workshop/12345">MoQ: Mixture-of-format Activation Quantization for Communication-efficient AI Inference System</a></h3>
+    <h3><a href="https://openreview.net/pdf?id=MDfr3Eos44">MoQ: Mixture-of-format Activation Quantization for Communication-efficient AI Inference System</a></h3>
     <p><strong>Haonan Wang</strong>, Z Liu, C Fang, JP Walters, SP Crago</p>
     <p>Proposed a mixed-format quantization method for AI inference, enhancing communication efficiency for edge/cloud deployments.</p>
   </div>
@@ -138,7 +138,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
     </div>
   </div>
   <div class='paper-box-text'>
-    <h3><a href="https://ieeexplore.ieee.org/document/10096015">QuantPipe: Adaptive Post-Training Quantization for Distributed Transformer Pipelines in Dynamic Edge Environments</a></h3>
+    <h3><a href="https://ieeexplore.ieee.org/abstract/document/10096632">QuantPipe: Adaptive Post-Training Quantization for Distributed Transformer Pipelines in Dynamic Edge Environments</a></h3>
     <p><strong>Haonan Wang</strong>, C Imes, S Kundu, PA Beerel, SP Crago, JP Walters</p>
     <p>Developed adaptive post-training quantization for transformer models in dynamic distributed edge environments.</p>
   </div>
@@ -152,18 +152,18 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
     </div>
   </div>
   <div class='paper-box-text'>
-    <h3><a href="https://ieeexplore.ieee.org/document/10095470">BEBERT: Efficient and Robust Binary Ensemble BERT</a></h3>
+    <h3><a href="https://ieeexplore.ieee.org/abstract/document/10096223">BEBERT: Efficient and Robust Binary Ensemble BERT</a></h3>
     <p>J Tian, C Fang, <strong>Haonan Wang</strong>, Z Wang</p>
     <p>Created an efficient and robust binary ensemble BERT, significantly reducing computational overhead.</p>
   </div>
 </div>
 
 <ul>
-  <li><a href="https://ieeexplore.ieee.org/document/9401561">Accelerating 3D CNN using 3D Fast Fourier Transform</a>, C Fang, L He, <strong>Haonan Wang</strong>, J Wei, Z Wang, <em>ISCAS 2021</em></li>
-  <li><a href="https://ieeexplore.ieee.org/document/9273915">Temporal Residual Feature Learning for 3D CNN Action Recognition</a>, <strong>Haonan Wang</strong>, Y Mei, J Lin, Z Wang, <em>SiPS 2020</em></li>
-  <li><a href="https://arxiv.org/abs/1905.13388">Design Light-weight 3D CNN for Video Recognition</a>, <strong>Haonan Wang</strong>, J Lin, Z Wang, <em>arXiv 2019</em></li>
-  <li><a href="https://ieeexplore.ieee.org/document/8683507">Sparse-Winograd Accelerator for CNNs</a>, <strong>Haonan Wang</strong>, W Liu, T Xu, J Lin, Z Wang, <em>ICASSP 2019</em></li>
-  <li><a href="https://ieeexplore.ieee.org/document/8645271">Efficient Reconfigurable Hardware Core for CNNs</a>, <strong>Haonan Wang</strong>, J Lin, Y Xie, B Yuan, Z Wang, <em>Asilomar 2018</em></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/9401765">Accelerating 3D CNN using 3D Fast Fourier Transform</a>, C Fang, L He, <strong>Haonan Wang</strong>, J Wei, Z Wang, <em>ISCAS 2021</em></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/9195240">Temporal Residual Feature Learning for 3D CNN Action Recognition</a>, <strong>Haonan Wang</strong>, Y Mei, J Lin, Z Wang, <em>SiPS 2020</em></li>
+  <li><a href="https://arxiv.org/pdf/1905.13388">Design Light-weight 3D CNN for Video Recognition</a>, <strong>Haonan Wang</strong>, J Lin, Z Wang, <em>arXiv 2019</em></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/8683512">A Low-latency Sparse-Winograd Accelerator for CNNs</a>, <strong>Haonan Wang</strong>, W Liu, T Xu, J Lin, Z Wang, <em>ICASSP 2019</em></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/8645259">Efficient Reconfigurable Hardware Core for CNNs</a>, <strong>Haonan Wang</strong>, J Lin, Y Xie, B Yuan, Z Wang, <em>Asilomar 2018</em></li>
 </ul>
 
 
