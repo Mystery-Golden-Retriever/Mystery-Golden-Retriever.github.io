@@ -106,7 +106,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   <div class='paper-box-image'>
     <div>
       <div class="badge">arXiv 2025</div>
-      <img src="images/fedpai.jpg" alt="FedPaI" width="100%">
+      <img src="images/fedpai.jpg" alt="FedPaI" width="80%">
     </div>
   </div>
   <div class='paper-box-text'>
