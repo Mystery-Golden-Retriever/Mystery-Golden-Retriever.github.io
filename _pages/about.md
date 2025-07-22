@@ -21,7 +21,7 @@ I am currently a Ph.D. student in Computer Engineering at the Information Scienc
 
 Before joining USC, I completed my Master's degree in Electronic Engineering under Prof. Zhongfeng Wang (IEEE Fellow), and my Bachelor's degree in Physics from Kuang Yaming Honors School at Nanjing University.
 
-My research interests span **Efficient Deep Learning Algorithms**, **Machine Learning Systems**, and **Distributed Edge Computing**. I am passionate about creating practical and efficient deep learning models and systems suitable for real-world applications. I have published papers in top AI conferences, accumulating **90** citations ([Google Scholar Profile](https://scholar.google.com/citations?user=AQuXJEkAAAAJ&hl=zh-CN)).
+My research interests span **Efficient Deep Learning Algorithms**, **Machine Learning Systems**, and **Distributed Edge Computing**. I am passionate about creating practical and efficient deep learning models and systems suitable for real-world applications. I have published papers in top AI conferences, accumulating **93** citations ([Google Scholar Profile](https://scholar.google.com/citations?user=AQuXJEkAAAAJ&hl=zh-CN)).
 
 
 # 🔥 News
@@ -36,7 +36,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">arXiv 2025</div>
+      <div class="badge">ICIC 2025</div>
       <img src="images/fedpai.jpg" alt="FedPaI" width="80%">
     </div>
   </div>
