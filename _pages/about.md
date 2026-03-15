@@ -8,21 +8,20 @@ redirect_from:
   - /about.html
 ---
 
+<div class="animate-on-scroll" markdown="1">
+
 # Welcome
 <span class='anchor' id='about-me'></span>
 
-<!---I am currently a Ph.D. student in Computer Engineering at Information Sciences Institute (ISI) and ECE department of University of Southern California (USC). Prior to that, I completed my Master's degree in School of Electronic Science and Engineering, and my Bachelor's degree in Kuang Yaming Honors School (formerly Gifted Young Class), both from Nanjing University.
-
-
-My research interests primarily focus on Efficient Deep Learning Algorithms, Machine Learning System, and Distributed Edge Computing. I am passionate about exploring new techniques and approaches to improve the performance and efficiency of deep learning models, making them more accessible and practical for real-world applications. I have published many papers at the top AI conferences with <strong><span id='total_cit'>72</span></strong></a> <a href='https://scholar.google.com/citations?user=AQuXJEkAAAAJ&hl=zh-CN'>google scholar citations.
-(You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).--->
-
-I am currently a Ph.D. student in Computer Engineering at the Information Sciences Institute (ISI) and the ECE department of the University of Southern California (USC), advised by Prof. Stephen Crago. My dissertation research focuses on **Efficient and Trustworthy Distributed EdgeAI Systems in the Era of Large Language Models (LLM)**. 
+I am a Machine Learning Engineer at **Google Ads**, working on efficient and scalable ML systems. I received my Ph.D. in Computer Engineering from the Information Sciences Institute (ISI) and the ECE department of the University of Southern California (USC), advised by Prof. Stephen Crago. My dissertation research focused on **Efficient and Trustworthy Distributed EdgeAI Systems in the Era of Large Language Models (LLM)**. 
 
 Before joining USC, I completed my Master's degree in Electronic Engineering under Prof. Zhongfeng Wang (IEEE Fellow), and my Bachelor's degree in Physics from Kuang Yaming Honors School at Nanjing University.
 
-My research interests span **Efficient Deep Learning Algorithms**, **Machine Learning Systems**, and **Distributed Edge Computing**. I am passionate about creating practical and efficient deep learning models and systems suitable for real-world applications. I have published papers in top AI conferences, accumulating **93** citations ([Google Scholar Profile](https://scholar.google.com/citations?user=AQuXJEkAAAAJ&hl=zh-CN)).
+My research interests span **Efficient Deep Learning Algorithms**, **Machine Learning Systems**, and **Distributed Edge Computing**. I am passionate about creating practical and efficient deep learning models and systems suitable for real-world applications. I have published papers in top AI conferences, accumulating <strong><span id='total_cit'>93</span></strong> citations ([Google Scholar Profile](https://scholar.google.com/citations?user=AQuXJEkAAAAJ&hl=zh-CN)).
 
+</div>
+
+<div class="animate-on-scroll" markdown="1">
 
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 Our paper **FedPaI** has been accepted by ICIC 2025 (Oral paper).
@@ -30,10 +29,15 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 - *2024.05*: &nbsp;🎉🎉 Present **EFFICIENT AND TRUSTWORTHY DISTRIBUTED EDGEAI SYSTEM** at MLSys Young Professionals Symposium.
 - *2023.06*: &nbsp;🎉🎉 Published papers **QuantPipe** and **BEBERT** at ICASSP 2023.
 
+</div>
+
+<div class="animate-on-scroll" markdown="1">
 
 # 📝 Publications 
 
-<div class='paper-box'>
+</div>
+
+<div class='paper-box animate-on-scroll'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICIC 2025</div>
@@ -47,7 +51,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box animate-on-scroll'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">NeurIPS 2024</div>
@@ -61,7 +65,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box animate-on-scroll'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICASSP 2023</div>
@@ -75,7 +79,7 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box animate-on-scroll'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICASSP 2023</div>
@@ -89,6 +93,8 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   </div>
 </div>
 
+<div class="animate-on-scroll" markdown="1">
+
 <ul>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/9401765">Accelerating 3D CNN using 3D Fast Fourier Transform</a>, C Fang, L He, <strong>Haonan Wang</strong>, J Wei, Z Wang, <em>ISCAS 2021</em></li>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/9195240">Temporal Residual Feature Learning for 3D CNN Action Recognition</a>, <strong>Haonan Wang</strong>, Y Mei, J Lin, Z Wang, <em>SiPS 2020</em></li>
@@ -97,6 +103,9 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   <li><a href="https://ieeexplore.ieee.org/abstract/document/8645259">Efficient Reconfigurable Hardware Core for CNNs</a>, <strong>Haonan Wang</strong>, J Lin, Y Xie, B Yuan, Z Wang, <em>Asilomar 2018</em></li>
 </ul>
 
+</div>
+
+<div class="animate-on-scroll" markdown="1">
 
 # 💻 Internships
 - *2024.06 - 2024.09*, **Research Scientist Intern**, Microsoft Azure Hardware System & Infrastructure, USA
@@ -108,6 +117,10 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
   - Developed FPGA-based sparse CNN accelerators
   - Designed efficient 3D CNN algorithms for action recognition tasks
 
+</div>
+
+<div class="animate-on-scroll" markdown="1">
+
 # 🎖 Honors and Awards
 - *2024* MLSys YPS Poster Session Presenter
 - *2024* KESTON and ISI Exploratory Research Grants (\$100k)
@@ -116,10 +129,20 @@ My research interests span **Efficient Deep Learning Algorithms**, **Machine Lea
 - *2019* Best Poster Award & Travel Grant, Singapore AI Summer Workshop
 - *2018* AI Scholarship, Nanjing University
 
+</div>
+
+<div class="animate-on-scroll" markdown="1">
+
 # 📖 Educations
 - *2020.09 - now*, Ph.D. Computer Engineering, Ming Hsieh Department of Electrical and Computer Engineering, Los Angeles, USA. 
 - *2017.09 - 2020.06* M.Sc. Electronic Engineering, School of Electronic Science and Engineering, Nanjing University, China.
 - *2013.09 - 2017.06* B.Sc. Physics, Kuang Yaming Honors School, Nanjing University, China.
 
+</div>
+
+<div class="animate-on-scroll" markdown="1">
+
 # 💬 Invited Talks
 - *2024.05* MLSys Young Professionals Symposium, EFFICIENT AND TRUSTWORTHY DISTRIBUTED EDGEAI SYSTEM. 
+
+</div>

@@ -1,10 +1,11 @@
 /* ==========================================================================
-   BASE ELEMENTS
+   BASE ELEMENTS — Apple-inspired
    ========================================================================== */
 html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,25 +14,30 @@ body {
   padding-bottom: 0em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
 
   &.overflow--hidden {
-    /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 1em 0 0.5em;
-  line-height: 1.2;
+  margin: 1.2em 0 0.6em;
+  line-height: 1.25;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: $dark-gray;
 }
 
 h1 {
-  // margin: 4em 0 0.5em;
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-size: $type-size-3;
+  font-weight: 700;
 }
 
 h2 {
@@ -40,6 +46,7 @@ h2 {
 
 h3 {
   font-size: $type-size-5;
+  font-weight: 600;
 }
 
 h4 {
@@ -59,7 +66,9 @@ small, .small {
 }
 
 p {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
+  color: $text-color;
+  line-height: 1.7;
 }
 
 u,
@@ -99,11 +108,13 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  margin: 2em 0;
+  padding: 1.5em 2em;
+  font-style: normal;
+  color: $gray;
+  border-left: 3px solid $primary-color;
+  background: $lighter-gray;
+  border-radius: 0 $border-radius $border-radius 0;
 
   cite {
     font-style: italic;
@@ -118,7 +129,9 @@ blockquote {
 /* links */
 
 a {
-  
+  color: $link-color;
+  transition: color 0.2s ease;
+
   &:focus {
     @extend %tab-focus;
   }
@@ -126,6 +139,7 @@ a {
   &:hover,
   &:active {
     outline: 0;
+    color: $link-color-hover;
   }
 }
 
@@ -136,7 +150,7 @@ tt, code, kbd, samp, pre {
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  overflow-x: auto;
 }
 
 p > code,
@@ -148,13 +162,13 @@ td > code {
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
   background: $code-background-color;
-  border: 1px solid $lighter-gray;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 6px;
+  box-shadow: none;
 
   &:before, &:after {
     letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
+    content: "\00a0";
   }
 }
 
@@ -162,7 +176,7 @@ td > code {
 
 hr {
   display: block;
-  margin: 1em 0;
+  margin: 2em 0;
   border: 0;
   border-top: 1px solid $border-color;
 }
@@ -182,8 +196,6 @@ li ol {
 /*
    Media and embeds
    ========================================================================== */
-
-/* Figures and images */
 
 figure {
   display: -webkit-box;
@@ -243,7 +255,7 @@ figure {
 
 figcaption {
   margin-bottom: 0.5em;
-  color: mix(#fff, $text-color, 25%);
+  color: $gray;
   font-family: $caption-font-family;
   font-size: $type-size-6;
 
@@ -255,8 +267,8 @@ figcaption {
     transition: $global-transition;
 
     &:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: $dark-gray;
+      border-bottom-color: $dark-gray;
     }
   }
 }
@@ -272,19 +284,6 @@ svg:not(:root) {
 /*
    Navigation lists
    ========================================================================== */
-
-/**
- * Removes margins, padding, and bullet points from navigation lists
- *
- * Example usage:
- * <nav>
- *    <ul>
- *      <li><a href="#link-1">Link 1</a></li>
- *      <li><a href="#link-2">Link 2</a></li>
- *      <li><a href="#link-3">Link 3</a></li>
- *    </ul>
- *  </nav>
- */
 
 nav {
   ul {
@@ -319,4 +318,10 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+/* Selection color */
+::selection {
+  background: rgba($primary-color, 0.15);
+  color: $dark-gray;
 }

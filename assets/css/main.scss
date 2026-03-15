@@ -2,13 +2,9 @@
 ---
 
 /*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ *    Apple-inspired Personal Website Theme
+ *    Based on Minimal Mistakes Jekyll Theme
+ */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
@@ -40,15 +36,33 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+
+/* ==========================================================================
+   PUBLICATION CARDS — Glassmorphism
+   ========================================================================== */
+
 .paper-box {
     display: flex;
     justify-content: left;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    border-bottom: none;
+    padding: 2em 0;
+    margin-bottom: 1em;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 1.5em;
+    transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+        border-color: rgba(0, 0, 0, 0.1);
+    }
 
     .paper-box-image{
         justify-content: center;
@@ -57,14 +71,45 @@
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            box-shadow: none;
             object-fit: cover;
+            border-radius: 12px;
+            transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
         }
     }
     
     .paper-box-text{
         max-width: 100%;
         order: 1;
+
+        h3 {
+            margin-top: 0.3em;
+            font-size: 1.05em;
+            font-weight: 600;
+            line-height: 1.4;
+
+            a {
+                color: $dark-gray;
+                text-decoration: none;
+                transition: color 0.25s ease;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+
+        p {
+            color: $gray;
+            font-size: 0.9em;
+            line-height: 1.6;
+            margin-bottom: 0.3em;
+
+            strong {
+                color: $dark-gray;
+                font-weight: 600;
+            }
+        }
     }
     
     @include breakpoint($medium) {
@@ -81,12 +126,10 @@
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
+/* Scroll offset for anchor links */
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
@@ -97,13 +140,81 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
+/* Conference badge — pill style with gradient */
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.3em 0.9em;
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
-    font-size: .8em;
+    background: linear-gradient(135deg, #0071e3 0%, #005bb5 100%);
+    font-size: .75em;
+    font-weight: 600;
+    border-radius: 100px;
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 8px rgba(0, 113, 227, 0.3);
+}
+
+
+/* ==========================================================================
+   NEWS SECTION
+   ========================================================================== */
+.page__content ul {
+    li {
+        position: relative;
+        padding: 0.3em 0;
+        border-bottom: none;
+        
+        em {
+            color: $gray;
+            font-style: normal;
+            font-weight: 500;
+        }
+    }
+}
+
+
+/* ==========================================================================
+   OTHER PUBLICATIONS (list style)
+   ========================================================================== */
+.page__content > ul {
+    list-style: none;
+    padding-left: 0;
+    
+    > li {
+        padding: 0.8em 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+        
+        &:last-child {
+            border-bottom: none;
+        }
+        
+        a {
+            font-weight: 500;
+            color: $dark-gray;
+            
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        
+        em {
+            color: $gray;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+    }
+}
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.page__content::after {
+    content: '';
+    display: block;
+    margin-top: 4em;
+    padding-top: 2em;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    text-align: center;
 }

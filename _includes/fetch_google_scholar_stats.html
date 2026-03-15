@@ -1,19 +1,30 @@
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
-    })
+  // Fetch Google Scholar citation count via Semantic Scholar API (CORS-friendly)
+  document.addEventListener('DOMContentLoaded', function() {
+    // Fetch citation count from Semantic Scholar using the author's papers
+    // Google Scholar ID: AQuXJEkAAAAJ
+    var scholarUrl = 'https://scholar.google.com/citations?user=AQuXJEkAAAAJ&hl=en';
+    
+    // Use a CORS proxy to fetch the Google Scholar page
+    var proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(scholarUrl);
+    
+    fetch(proxyUrl)
+      .then(function(response) { return response.text(); })
+      .then(function(html) {
+        // Parse citation count from the Google Scholar page
+        // Look for the "Cited by" count in the stats table
+        var match = html.match(/Citations<\/a><\/td><td class="gsc_rsb_std">(\d+)<\/td>/);
+        if (match && match[1]) {
+          var totalCitations = parseInt(match[1]);
+          var citEl = document.getElementById('total_cit');
+          if (citEl) {
+            citEl.textContent = totalCitations;
+          }
+        }
+      })
+      .catch(function(err) {
+        console.log('Could not fetch citation count:', err);
+        // Keep the static fallback value
+      });
+  });
 </script>

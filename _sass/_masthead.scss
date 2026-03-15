@@ -1,12 +1,14 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD — Frosted Glass Apple-style Navigation
    ========================================================================== */
 
 .masthead {
   position: sticky;
   top: 0;
-  background-color: white;
-  border-bottom: 1px solid $border-color;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -16,7 +18,10 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: .5em;
+    padding: 0 1.5em;
+    height: 52px;
+    display: flex;
+    align-items: center;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -25,6 +30,7 @@
 
     nav {
       z-index: 10;
+      width: 100%;
     }
 
     a {
@@ -55,10 +61,39 @@
   list-style-type: none;
   white-space: nowrap;
 
+  a {
+    color: $dark-gray;
+    font-size: 0.85em;
+    font-weight: 400;
+    padding: 0.4em 0.8em;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    position: relative;
+
+    &:hover {
+      color: $primary-color;
+      background: rgba($primary-color, 0.06);
+    }
+
+    &.is-active {
+      color: $primary-color;
+      font-weight: 500;
+    }
+  }
+
   &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+    padding-right: 1em;
+    font-weight: 600;
+
+    a {
+      font-size: 0.95em;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+
+      &:hover {
+        background: none;
+        color: $primary-color;
+      }
+    }
   }
 }
-
-
